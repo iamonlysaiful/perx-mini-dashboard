@@ -1,0 +1,8 @@
+<h1>Custome Text Page</h1>
+<mat-divider class="mb-30"></mat-divider>
+<div class="content-div">
+    <div class="custom-div" [ngClass]="{'custom-text': color === 'green'}">
+        {{divText}}
+    </div>
+    <button mat-flat-button color="primary" (click)="changeText()" [disabled]="isButtonDisabled">Change Text</button>
+</div>

@@ -1,0 +1,31 @@
+.content-list {
+    table {
+        width: 100%;
+    }
+
+    .mat-form-field {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .content-tr {
+        display: flex;
+        align-content: space-around;
+        justify-content: flex-start;
+        align-items: center;
+        img {
+            margin-right: 12px;
+            height: 104px;
+            padding: 8px 0;
+        }
+    }
+
+    .author {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        line-height: 2;
+    }
+}
